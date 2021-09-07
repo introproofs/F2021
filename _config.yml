@@ -1,0 +1,53 @@
+# Site settings
+course_name: Introduction To Proofs
+course_description: "This course is an introduction to mathematical proofs. Proofs are performed on abstract structures such as finite and infinite sets, functions, and metric spaces. You will be introduced to methods of writing proofs which are rigorous, readable, and elegant. You will practice using cases, contradiction, and induction. Mathematical communication, both written and spoken, is emphasized throughout the course."
+course_semester: "Fall 2021"
+
+baseurl: "/jhu301-f21" # the subpath of your site, e.g. /blog/
+url: "https://introproofs.github.io" # the base hostname & protocol for your site
+
+
+schoolname: "Johns Hopkins University"
+schoolurl: "https://www.jhu.edu/"
+twitter_username: username 
+
+address: |
+    Johns Hopkins University
+    Marylands
+    The United States
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: 
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    homeworks:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "homeworks"
+    values:
+      layout: "homework"

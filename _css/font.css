@@ -1,0 +1,57 @@
+@font-face
+{
+  font-family: "Amaranth-Regular";
+  src: url("font/amaranth/Amaranth-Regular.otf") format("opentype");
+}
+
+
+@font-face
+{
+  font-family: "Amaranth-Italic";
+  src: url("font/amaranth/Amaranth-Italic.otf") format("opentype");
+}
+
+@font-face
+{
+  font-family: 'OpenSans-Regular';
+  font-weight: 500;
+  src: url("font/open_sans/OpenSans-Regular.ttf");
+}
+
+@font-face
+{
+  font-family: 'OpenSans-Italic';
+  src: url("font/open_sans/OpenSans-Italic.ttf");
+}
+
+
+@font-face 
+{
+  font-family: "Lato-Regular";
+  font-weight: 400;
+  src: url("font/Lato/Lato-Regular.ttf");
+}
+
+@font-face 
+{
+  font-family: "Lato-Italic";
+  font-weight: 400;
+  src: url("font/Lato/Lato-Italic.ttf");
+}
+
+@font-face 
+{
+  font-family: "Lato-Bold";
+  font-weight: 700;
+  src: url("font/Lato/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Patua One';
+  src: url("font/PatuaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'DroidSans';
+  src: url("font/DroidSans.ttf");
+}
